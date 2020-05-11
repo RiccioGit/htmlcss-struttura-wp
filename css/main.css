@@ -6,7 +6,44 @@
 
 header {
   height: 200px;
-  height: 150px;
   width: 100%;
   background-color: yellow;
+}
+
+#container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colonnasx {
+  /* display: inline-block; */
+  float: left;
+  width: 20%;
+  height: 400px;
+  background-color: #ff66ff;
+}
+
+.colonnacentro {
+  /* display: inline-block; */
+  width: 50%;
+  height: 600px;
+  background-color: #990099;
+}
+
+.colonnadx {
+  /* display: inline-block; */
+  float: right;
+  width: 20%;
+  height: 600px;
+  background-color: #ff66ff;
+
+}
+
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: lightblue;
+
 }
