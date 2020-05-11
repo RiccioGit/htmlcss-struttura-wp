@@ -27,7 +27,7 @@ header {
 
 .colonnacentro {
   display: inline-block;
-  width: 50%;
+  width: 40%;
   height: 600px;
   background-color: #990099;
 }
@@ -35,7 +35,7 @@ header {
 .colonnadx {
   /* display: inline-block; */
   float: right;
-  width: 25%;
+  width: 35%;
   height: 600px;
   background-color: #ff66ff;
 
