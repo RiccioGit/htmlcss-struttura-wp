@@ -1,0 +1,12 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+header {
+  height: 200px;
+  height: 150px;
+  width: 100%;
+  background-color: yellow;
+}
